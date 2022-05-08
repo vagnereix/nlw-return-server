@@ -1,0 +1,57 @@
+Arguments: 
+  /home/vagnereix/.nvm/versions/node/v16.14.0/bin/node /usr/share/yarn/bin/yarn.js init
+
+PATH: 
+  /home/vagnereix/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/bin/remote-cli:/home/vagnereix/.nvm/versions/node/v16.14.0/bin:/home/vagnereix/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/Microsoft.WindowsTerminal_1.12.10983.0_x64__8wekyb3d8bbwe:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Common Files/Autodesk Shared/:/mnt/c/Users/vagne/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/vagne/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/vagne/AppData/Local/Programs/Microsoft VS Code/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: setRawMode EIO
+      at ReadStream.setRawMode (node:tty:78:31)
+      at Interface._setRawMode (node:readline:399:16)
+      at Interface.close (node:readline:583:10)
+      at ReadStream.ontermend (node:readline:284:10)
+      at ReadStream.emit (node:events:532:35)
+      at endReadableNT (node:internal/streams/readable:1346:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "ts-node-dev src/server.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@types/express": "^4.17.13",
+      "@types/node": "^17.0.31",
+      "@types/nodemailer": "^6.4.4",
+      "prisma": "^3.13.0",
+      "ts-node-dev": "^1.1.8",
+      "typescript": "^4.6.4"
+    },
+    "dependencies": {
+      "@prisma/client": "^3.13.0",
+      "express": "^4.18.1",
+      "nodemailer": "^6.7.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
