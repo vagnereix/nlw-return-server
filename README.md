@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img alt="NLW Return Server" src="" width="100%">
+  <img alt="NLW Return Server" src=".github/feedback-widget.png" width="100%">
 </p>
 
 ## 👩‍💻 Projeto
