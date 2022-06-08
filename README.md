@@ -14,7 +14,7 @@
 
 ## 👩‍💻 Projeto
 
-API pública para registro de feedbacks onde os mesmos podem ser do tipo Problema, Ideia ou Outro.
+API pública disponibilizada no [Railway](https://railway.app/) para registro de feedbacks onde os mesmos podem ser do tipo Problema, Ideia ou Outro.
 
 ## 📚 Guia de instalação e execução
 
